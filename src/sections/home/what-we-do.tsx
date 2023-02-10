@@ -21,14 +21,18 @@ export default function WhatWeDo() {
               key={m.title}
               className="[transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-1000"
             >
-              <div className="[backface-visibility:hidden]">
+              <div>
                 <CardHeader src={m.src} alt="launchpad" />
-                <CardBody title={m.title} description={m.description} />
+                <CardBody title={m.title} description={m.description} color="text-blue-gray-800"/>
               </div>
 
-              <div className="absolute w-full h-full my-rotate-y-180 [backface-visibility:hidden] [transform:rotateY(180deg)] overflow-hidden">
+              <div className="absolute top-0 left-0 py-4 rounded w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] overflow-hidden bg-blue-gray-800">
                 <CardHeader src={m.src} alt="launchpad" />
-                <CardBody title={m.title} description={m.description} />
+                <CardBody
+                  title={m.title}
+                  description={m.description}
+                  color="text-white"
+                />
               </div>
             </Card>
           </div>
