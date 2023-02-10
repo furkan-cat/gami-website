@@ -1,7 +1,8 @@
 # Getting Started with Vite
 
+### `yarn install`
+
 ### `yarn run dev`
-Runs the app in the development mode.
 
 ## Demo Link
 https://superb-donut-12fa9c.netlify.app/
