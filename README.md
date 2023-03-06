@@ -1,5 +1,5 @@
 ## Demo Link
-https://superb-donut-12fa9c.netlify.app/
+https://gami.netlify.app
 
 ### Tech
 
